@@ -41,3 +41,34 @@
 .btn--solid {
 	 background: linear-gradient(to right, #A008F1, #F108CE);
 }
+
+.pink-panel {
+	color: white;
+	background-color: #FF1DA2;
+	padding: 3vh;
+}
+
+.digits-table {
+	width: 100%;
+}
+
+table, th, td {
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 3vh;
+}
+
+.grey {
+	background-color: #E3E3E3;
+}
+
+.table-height {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+
