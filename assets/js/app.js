@@ -9,5 +9,3 @@ function cargarPagina() {
             });
         }, 2000);
 }
-
-       

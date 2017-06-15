@@ -39,7 +39,7 @@
 			          	</li>
 			        </ul>
 			    </div>
-			    <input type="text" class="form-control" aria-label="..." value="+52">
+			    <input type="text" class="form-control" id="resultado" aria-label="..." value="+52">
 		    </div>
 		</div>
 	</div>
@@ -58,23 +58,23 @@
 		<div class="row">
 			<table class="digits-table text-center col-xs-12">
 				<tr>
-				   	<td class="btn-default">1</td>
-				    <td class="btn-default">2</td>
-				    <td class="btn-default">3</td>
+				   	<td class="btn-default" value="1" onclick="agregarNumber(this)">1</td>
+				    <td class="btn-default" value="2" onclick="agregarNumber(this)">2</td>
+				    <td class="btn-default" value="3" onclick="agregarNumber(this)">3</td>
 				</tr>
 				<tr>
-				    <td class="btn-default">4</td>
-				    <td class="btn-default">5</td>
-				    <td class="btn-default">6</td>
+				    <td class="btn-default" value="4" onclick="agregarNumber(this)">4</td>
+				    <td class="btn-default" value="5" onclick="agregarNumber(this)">5</td>
+				    <td class="btn-default" value="6" onclick="agregarNumber(this)">6</td>
 				</tr>
 				<tr>
-				    <td class="btn-default">7</td>
-				    <td class="btn-default">8</td>
-				    <td class="btn-default">9</td>
+				    <td class="btn-default" value="7" onclick="agregarNumber(this)">7</td>
+				    <td class="btn-default" value="8" onclick="agregarNumber(this)">8</td>
+				    <td class="btn-default" value="9" onclick="agregarNumber(this)">9</td>
 				</tr>
 				<tr>
 				   	<td class="btn-default grey"> </td>
-				    <td class="btn-default">0</td>
+				    <td class="btn-default" value="0" onclick="agregarNumber(this)">0</td>
 				    <td class="btn-default grey erase-icon"></td>
 				</tr>
 			</table>
@@ -83,6 +83,7 @@
 </section>
 	<script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>
 
